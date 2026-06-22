@@ -13,6 +13,14 @@ Powered by a React frontend, a FastAPI backend, and the Google Gemini API, this 
 ![AI Chat Interface](screenshot/chat_ai.png)
 *The main chat interface where you can interact with the AI.*
 
+#### Cloud Deployment: Live Chat
+![Cloud Live Chat](screenshot/cloud_chat_live.png)
+*Live chat interface communicating with the Render backend via Google Gemini API.*
+
+#### Cloud Deployment: Admin Dashboard
+![Cloud Live Admin](screenshot/cloud_admin_live.png)
+*Admin dashboard for uploading documents directly on the live Vercel site.*
+
 #### Knowledge Base Upload (Sample Document)
 ![Knowledge Base Upload](screenshot/knowledge_base_sample.png)
 *Uploading a complex legal document to the local RAG knowledge base.*
