@@ -10,7 +10,7 @@ from database import init_db, get_db, Message, UserMemory, SessionLocal
 
 import google.generativeai as genai
 from google.generativeai.types import ContentDict
-from ddgs import DDGS
+from duckduckgo_search import DDGS
 import shutil
 from rag import add_document, query_knowledge_base
 
