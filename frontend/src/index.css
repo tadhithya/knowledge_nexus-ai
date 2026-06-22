@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: hsl(214.3, 31.8%, 91.4%);
+  --color-input: hsl(214.3, 31.8%, 91.4%);
+  --color-ring: hsl(222.2, 84%, 4.9%);
+  --color-background: hsl(0, 0%, 100%);
+  --color-foreground: hsl(222.2, 84%, 4.9%);
+
+  --color-primary: hsl(222.2, 47.4%, 11.2%);
+  --color-primary-foreground: hsl(210, 40%, 98%);
+
+  --color-secondary: hsl(210, 40%, 96.1%);
+  --color-secondary-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  --color-destructive: hsl(0, 84.2%, 60.2%);
+  --color-destructive-foreground: hsl(210, 40%, 98%);
+
+  --color-muted: hsl(210, 40%, 96.1%);
+  --color-muted-foreground: hsl(215.4, 16.3%, 46.9%);
+
+  --color-accent: hsl(210, 40%, 96.1%);
+  --color-accent-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  --color-popover: hsl(0, 0%, 100%);
+  --color-popover-foreground: hsl(222.2, 84%, 4.9%);
+
+  --color-card: hsl(0, 0%, 100%);
+  --color-card-foreground: hsl(222.2, 84%, 4.9%);
+
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+.markdown-body { color: white; }
+.markdown-body p { margin-top: 0; margin-bottom: 0.5rem; }
+.markdown-body p:last-child { margin-bottom: 0; }
+.markdown-body pre { background: rgba(0,0,0,0.3); padding: 0.75rem; border-radius: 0.5rem; overflow-x: auto; font-family: monospace; font-size: 0.85rem; margin: 0.5rem 0; }
+.markdown-body code { background: rgba(0,0,0,0.3); padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-family: monospace; font-size: 0.85em; }
+.markdown-body pre code { background: transparent; padding: 0; border-radius: 0; }
+.markdown-body ul, .markdown-body ol { margin-top: 0.5rem; margin-bottom: 0.5rem; padding-left: 1.5rem; }
+.markdown-body table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+.markdown-body th, .markdown-body td { border: 1px solid rgba(255,255,255,0.2); padding: 0.4rem; }
+

@@ -1,0 +1,19 @@
+CONFIDENTIAL: PROJECT STARFIRE SPECIFICATION AND LEGAL AGREEMENT
+
+1. OVERVIEW
+Project Starfire details the joint development of the Quantum Flux Drive (QFD) by AeroSpace Dynamics (ASD) and Nova Propulsion Labs (NPL). The QFD utilizes a polarized tachyon matrix to achieve sub-light speeds of 0.99c. 
+
+2. LIABILITY LIMITS
+In the event of a tachyon matrix destabilization during atmospheric testing, ASD's maximum liability is capped at $450 million USD, provided that NPL has conducted the mandatory Pre-Ignition Resonance Sweep (PIRS). If PIRS is bypassed by NPL, ASD is released from all liability, and NPL assumes 100% of the financial damages.
+
+3. TERMINATION CLAUSE
+Either party may terminate this agreement with a 90-day written notice. However, if termination occurs after Phase 3 (Plasma Containment Testing) has commenced, the terminating party must pay a cancellation penalty of $75 million USD to the non-terminating party. If termination is due to a material breach of the QFD safety protocols, the penalty is waived.
+
+4. INTELLECTUAL PROPERTY
+All code related to the Flux Controller algorithms remains the sole property of NPL. Hardware schematics for the Tachyon Emitters are jointly owned.
+
+5. PAYMENT SCHEDULE
+Total contract value: $1.2 Billion USD.
+- 20% upon signing.
+- 30% upon successful completion of Phase 2.
+- 50% upon final delivery of the prototype.

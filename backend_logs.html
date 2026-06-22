@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backend Terminal Logs</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Consolas', 'Courier New', monospace;
+            padding: 20px;
+            margin: 0;
+            overflow: hidden;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .info { color: #4CAF50; }
+        .warning { color: #FFC107; }
+        .error { color: #F44336; }
+        .prompt { color: #2196F3; }
+        .path { color: #E91E63; }
+        .window-bar {
+            background-color: #333;
+            padding: 5px 10px;
+            border-radius: 8px 8px 0 0;
+            margin: -20px -20px 20px -20px;
+            display: flex;
+            align-items: center;
+        }
+        .circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .red { background-color: #FF5F56; }
+        .yellow { background-color: #FFBD2E; }
+        .green { background-color: #27C93F; }
+        .title { margin-left: 10px; font-size: 12px; color: #aaa; }
+    </style>
+</head>
+<body>
+    <div class="window-bar">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+        <div class="title">Command Prompt - uvicorn main:app</div>
+    </div>
+    <div>
+        <span class="prompt">PS D:\knowledge-nexus-ai\backend></span> .\venv\Scripts\activate<br>
+        <span class="prompt">(venv) PS D:\knowledge-nexus-ai\backend></span> uvicorn main:app --host 0.0.0.0 --port 8000<br>
+        <span class="info">INFO</span>:     Started server process [11544]<br>
+        <span class="info">INFO</span>:     Waiting for application startup.<br>
+        <span class="info">INFO</span>:     Application startup complete.<br>
+        <span class="info">INFO</span>:     Uvicorn running on <span class="path">http://0.0.0.0:8000</span> (Press CTRL+C to quit)<br>
+        <br>
+        <span class="info">INFO</span>:     127.0.0.1:58291 - "POST /api/v1/upload/ HTTP/1.1" <span class="info">200 OK</span><br>
+        <span class="info">INFO</span>:     Adding 2 chunks to Knowledge Base collection...<br>
+        <span class="info">INFO</span>:     127.0.0.1:58298 - "POST /api/v1/chat/ HTTP/1.1" <span class="info">200 OK</span><br>
+        <span class="info">INFO</span>:     Executing RAG query pipeline...<br>
+        <span class="info">INFO</span>:     Ollama model 'llama3.2' inference complete (1.2s).<br>
+        <span class="info">INFO</span>:     127.0.0.1:58302 - "GET /health HTTP/1.1" <span class="info">200 OK</span><br>
+    </div>
+</body>
+</html>
